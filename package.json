@@ -1,6 +1,6 @@
 {
   "name": "@bifravst/random-words",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Returns random 8-letter words from the Webster's Unabridged Dictionary",
   "main": "index.js",
   "scripts": {
@@ -29,5 +29,16 @@
   },
   "devDependencies": {
     "standard": "^13.0.2"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "package-lock.json",
+    "README.md",
+    "LICENSE",
+    "index.js",
+    "words.js",
+    "test.js"
+  ]
 }
