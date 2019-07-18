@@ -2,7 +2,7 @@
 
 Returns random 8-letter words from the [Webster's Unabridged Dictionary](http://www.gutenberg.org/ebooks/29765).
 
-Usage:
+## Usage
 
     npm i --save @bifravst/random-words
 
@@ -14,3 +14,9 @@ random()
         console.log(words) // [ 'scoparin', 'prowling', 'priedieu', 'gantline' ]
     })
 ```
+
+## CLI Usage
+
+    npx @bifravst/random-words
+    # npx: installed 4 in 1.216s
+    # catopron allodium registry misalter    

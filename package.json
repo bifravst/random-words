@@ -1,6 +1,6 @@
 {
   "name": "@bifravst/random-words",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Returns random 8-letter words from the Webster's Unabridged Dictionary",
   "main": "index.js",
   "bin": "cli.js",
