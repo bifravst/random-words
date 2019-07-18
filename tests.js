@@ -1,7 +1,7 @@
-const random = require('./index')
+const { randomWords } = require('./index')
 
 const tests = async () => {
-  const words = await random()
+  const words = await randomWords()
   if (words.length !== 4) {
     console.log(words)
     throw new Error('Random did not return words.')

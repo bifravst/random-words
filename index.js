@@ -8,11 +8,14 @@ async function * randomWord () {
   }
 }
 
-module.exports = async ({ numWords } = { numWords: 4 }) => {
-  const randomWords = []
-  const r = randomWord()
-  for (let i = 0; i < parseInt(numWords, 10); i++) {
-    randomWords.push((await r.next()).value)
+module.exports = {
+  randomWords: async ({ numWords } = { numWords: 4 }) => {
+    const randomWords = []
+    const r = randomWord()
+    for (let i = 0; i < parseInt(numWords, 10); i++) {
+      randomWords.push((await r.next()).value)
+    }
+    return randomWords
   }
-  return randomWords
+
 }
