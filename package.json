@@ -1,0 +1,33 @@
+{
+  "name": "@bifravst/random-words",
+  "version": "1.0.0",
+  "description": "Returns random 8-letter words from the Webster's Unabridged Dictionary",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bifravst/random-words.git"
+  },
+  "keywords": [
+    "random",
+    "words"
+  ],
+  "author": "Nordic Semiconductor ASA | nordicsemi.no",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bifravst/random-words/issues"
+  },
+  "homepage": "https://github.com/bifravst/random-words#readme",
+  "dependencies": {
+    "random-number-csprng": "^1.0.2"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "devDependencies": {
+    "standard": "^13.0.2"
+  }
+}
