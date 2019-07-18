@@ -1,6 +1,6 @@
 {
   "name": "@bifravst/random-words",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Returns random 8-letter words from the Webster's Unabridged Dictionary",
   "main": "index.js",
   "bin": "cli.js",
@@ -8,6 +8,7 @@
   "scripts": {
     "test": "node tests.js"
   },
+  "runkitExampleFilename": "example.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bifravst/random-words.git"
@@ -42,6 +43,7 @@
     "index.js",
     "index.d.ts",
     "cli.js",
+    "example.js",
     "words.js",
     "test.js"
   ]

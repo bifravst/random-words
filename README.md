@@ -10,9 +10,7 @@ Returns random 8-letter words from the [Webster's Unabridged Dictionary](http://
 const { randomWords } = require('@bifravst/random-words')
 
 randomWords()
-    .then(words => {
-        console.log(words) // [ 'scoparin', 'prowling', 'priedieu', 'gantline' ]
-    })
+    .then(console.log) // [ 'scoparin', 'prowling', 'priedieu', 'gantline' ]
 ```
 
 ## CLI Usage
