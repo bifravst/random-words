@@ -36,6 +36,10 @@
   "publishConfig": {
     "access": "public"
   },
+  "release": {
+    "branch": "saga",
+    "remoteTags": true
+  },
   "files": [
     "package-lock.json",
     "README.md",
