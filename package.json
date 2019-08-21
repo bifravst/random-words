@@ -18,7 +18,7 @@
     "words"
   ],
   "author": "Nordic Semiconductor ASA | nordicsemi.no",
-  "license": "MIT",
+  "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/bifravst/random-words/issues"
   },
