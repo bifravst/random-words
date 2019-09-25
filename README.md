@@ -1,4 +1,4 @@
-# Generate random 8 letter words [![npm version](https://img.shields.io/npm/v/@bifravst/random-words.svg)](https://www.npmjs.com/package/@bifravst/random-words)
+# Generate random 8 letter words
 
 [![GitHub Actions](https://github.com/bifravst/random-words/workflows/Test%20and%20Release/badge.svg)](https://github.com/bifravst/random-words/actions)
 [![Greenkeeper badge](https://badges.greenkeeper.io/bifravst/random-words.svg)](https://greenkeeper.io/)
@@ -7,6 +7,15 @@
 [![code style: standard](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://github.com/standard/standard)
 
 Returns random 8-letter words from the [Webster's Unabridged Dictionary](http://www.gutenberg.org/ebooks/29765).
+
+## Installation
+
+> Note: This package is hosted on the GitHub package registry and 
+> [npm needs to be configured](https://help.github.com/en/articles/configuring-npm-for-use-with-github-package-registry#installing-a-package)
+> in order to use it.
+
+    echo "@bifravst:registry=https://npm.pkg.github.com" >> .npmrc
+    npm i --save-dev @bifravst/random-words
 
 ## Usage
 
