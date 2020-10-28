@@ -33,7 +33,7 @@
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-angular": "11.0.0",
-    "standard": "15.0.0"
+    "standard": "15.0.1"
   },
   "publishConfig": {
     "access": "public"
