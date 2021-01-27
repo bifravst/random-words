@@ -1,4 +1,3 @@
-const { randomWords } = require('@nordicsemiconductor/random-words')
+const { randomWords } = require("@nordicsemiconductor/random-words");
 
-randomWords()
-  .then(console.log)
+randomWords().then(console.log);
