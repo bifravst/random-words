@@ -1,5 +1,5 @@
 {
-  "name": "@bifravst/random-words",
+  "name": "@nordicsemiconductor/random-words",
   "version": "0.0.0-development",
   "description": "Returns random 8-letter words from the Webster's Unabridged Dictionary",
   "main": "index.js",
@@ -11,7 +11,7 @@
   "runkitExampleFilename": "example.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bifravst/random-words.git"
+    "url": "git+https://github.com/NordicSemiconductor/random-words-js.git"
   },
   "keywords": [
     "random",
@@ -20,9 +20,9 @@
   "author": "Nordic Semiconductor ASA | nordicsemi.no",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/bifravst/random-words/issues"
+    "url": "https://github.com/NordicSemiconductor/random-words-js/issues"
   },
-  "homepage": "https://github.com/bifravst/random-words#readme",
+  "homepage": "https://github.com/NordicSemiconductor/random-words-js#readme",
   "dependencies": {
     "random-number-csprng": "^1.0.2"
   },
