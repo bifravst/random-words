@@ -49,7 +49,7 @@
       "prettier --write"
     ],
     "*.{js}": [
-      "standard --write"
+      "standard --fix"
     ]
   },
   "publishConfig": {
