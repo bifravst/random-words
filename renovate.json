@@ -1,5 +1,3 @@
 {
-  "extends": [
-    "github>github>nordicsemiconductor/asset-tracker-cloud-code-style-js"
-  ]
+  "extends": ["github>nordicsemiconductor/asset-tracker-cloud-code-style-js"]
 }
