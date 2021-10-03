@@ -41,7 +41,7 @@
     "husky": "7.0.2",
     "pinst": "2.1.6",
     "prettier": "2.4.1",
-    "standard": "16.0.3"
+    "standard": "16.0.4"
   },
   "lint-staged": {
     "*.{yml,md,json}": [
