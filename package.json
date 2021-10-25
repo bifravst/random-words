@@ -32,8 +32,8 @@
     "random-number-csprng": "1.0.2"
   },
   "engines": {
-    "node": ">=16.0.0",
-    "npm": ">=7.0.0"
+    "node": "16",
+    "node": "7"
   },
   "devDependencies": {
     "@commitlint/cli": "13.2.1",
