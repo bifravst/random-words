@@ -32,8 +32,8 @@
     "random-number-csprng": "1.0.2"
   },
   "engines": {
-    "node": ">=14",
-    "npm": ">=7"
+    "node": ">=16",
+    "npm": ">=8"
   },
   "devDependencies": {
     "@nordicsemiconductor/asset-tracker-cloud-code-style": "10.0.7",
