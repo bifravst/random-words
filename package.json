@@ -17,10 +17,9 @@
     "url": "git+https://github.com/NordicSemiconductor/random-words-js.git"
   },
   "keywords": [
-    "random",
-    "words",
-    "nRF Asset Tracker",
-    "Nordic Semiconductor"
+    "random-words",
+    "nrf-asset-tracker",
+    "iot"
   ],
   "author": "Nordic Semiconductor ASA | nordicsemi.no",
   "license": "BSD-3-Clause",
