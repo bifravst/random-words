@@ -11,11 +11,11 @@ Returns random 8-letter words from the [Webster's Unabridged Dictionary](http://
 
 ## Installation
 
-    npm i --save-dev @nordicsemiconductor/random-words
+    npm i --save-dev --save-exact @nordicsemiconductor/random-words
 
 ## Usage
 
-    npm i --save @nordicsemiconductor/random-words
+    npm i --save --save-exact @nordicsemiconductor/random-words
 
 ```javascript
 const { randomWords } = require("@nordicsemiconductor/random-words");
