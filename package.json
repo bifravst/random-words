@@ -35,7 +35,7 @@
     "npm": ">=8"
   },
   "devDependencies": {
-    "@nordicsemiconductor/asset-tracker-cloud-code-style": "11.0.25",
+    "@nordicsemiconductor/asset-tracker-cloud-code-style": "11.0.26",
     "standard": "16.0.4"
   },
   "lint-staged": {
