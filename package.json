@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@nordicsemiconductor/asset-tracker-cloud-code-style": "11.0.54",
-    "standard": "16.0.4"
+    "standard": "17.0.0"
   },
   "lint-staged": {
     "*.{yml,md,json}": [
