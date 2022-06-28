@@ -6,7 +6,7 @@ const tests = async () => {
     console.log(words)
     throw new Error('Random did not return words.')
   }
-  words.forEach(word => {
+  words.forEach((word) => {
     if (word.length !== 8) {
       console.log(word)
       throw new Error('Random did not return word of length 8.')
