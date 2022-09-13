@@ -7,9 +7,7 @@
   "typings": "index.d.ts",
   "scripts": {
     "test": "node tests.js",
-    "postinstall": "husky install",
-    "prepublishOnly": "pinst --disable",
-    "postpublish": "pinst --enable"
+    "prepare": "husky install"
   },
   "runkitExampleFilename": "example.js",
   "repository": {
