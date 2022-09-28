@@ -40,7 +40,7 @@
     "*.{yml,md,json}": [
       "prettier --write"
     ],
-    "*.{js}": [
+    "*.js": [
       "standard --fix"
     ]
   },
