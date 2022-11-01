@@ -29,7 +29,7 @@
     "random-number-csprng": "1.0.2"
   },
   "engines": {
-    "node": ">=16",
+    "node": ">=18",
     "npm": ">=8"
   },
   "devDependencies": {
