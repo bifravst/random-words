@@ -7,8 +7,8 @@ on:
     branches:
       - saga
     paths:
-      - "package.json"
-      - ".github/workflows/update-repo-info.yaml"
+      - 'package.json'
+      - '.github/workflows/update-repo-info.yaml'
   workflow_dispatch:
 
 jobs:

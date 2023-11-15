@@ -5,8 +5,9 @@
   "main": "index.js",
   "bin": "cli.js",
   "typings": "index.d.ts",
+  "type": "module",
   "scripts": {
-    "test": "node tests.js",
+    "test": "node --test",
     "prepare": "husky install"
   },
   "runkitExampleFilename": "example.js",
@@ -25,15 +26,13 @@
     "url": "https://github.com/NordicSemiconductor/random-words-js/issues"
   },
   "homepage": "https://github.com/NordicSemiconductor/random-words-js#readme",
-  "dependencies": {
-    "random-number-csprng": "1.0.2"
-  },
   "engines": {
-    "node": ">=18",
+    "node": ">=20",
     "npm": ">=9"
   },
   "devDependencies": {
-    "@nordicsemiconductor/asset-tracker-cloud-code-style": "12.0.51",
+    "@commitlint/config-conventional": "18.4.0",
+    "@nordicsemiconductor/asset-tracker-cloud-code-style": "12.0.109",
     "standard": "17.1.0"
   },
   "lint-staged": {

@@ -1,20 +1,20 @@
-const { words, count } = require("./words");
-const randomNumber = require("random-number-csprng");
+import { words } from './words.js'
+import { randomInt } from 'node:crypto'
 
-async function* randomWord() {
+/* eslint-disable generator-star-spacing */
+/* eslint-disable space-before-function-paren */
+function* randomWord() {
   while (true) {
-    const number = await randomNumber(0, count - 1);
-    yield words[number];
+    const number = randomInt(0, words.length - 1)
+    yield words[number]
   }
 }
 
-module.exports = {
-  randomWords: async ({ numWords } = { numWords: 4 }) => {
-    const randomWords = [];
-    const r = randomWord();
-    for (let i = 0; i < parseInt(numWords, 10); i++) {
-      randomWords.push((await r.next()).value);
-    }
-    return randomWords;
-  },
-};
+export const randomWords = ({ numWords } = { numWords: 4 }) => {
+  const randomWords = []
+  const r = randomWord()
+  for (let i = 0; i < parseInt(numWords, 10); i++) {
+    randomWords.push(r.next().value)
+  }
+  return randomWords
+}

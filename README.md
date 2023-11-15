@@ -18,9 +18,9 @@ Returns random 8-letter words from the [Webster's Unabridged Dictionary](http://
     npm i --save --save-exact @nordicsemiconductor/random-words
 
 ```javascript
-const { randomWords } = require("@nordicsemiconductor/random-words");
+import { randomWords } from '@nordicsemiconductor/random-words'
 
-randomWords().then(console.log); // [ 'scoparin', 'prowling', 'priedieu', 'gantline' ]
+console.log(randomWords()) // [ 'scoparin', 'prowling', 'priedieu', 'gantline' ]
 ```
 
 ## CLI Usage

@@ -1,9 +1,4 @@
 #!/usr/bin/env node
-const { randomWords } = require("./index");
+import { randomWords } from './index.js'
 
-const cli = async () => {
-  const words = await randomWords();
-  process.stdout.write(words.join(" "));
-};
-
-cli();
+process.stdout.write(randomWords().join(' '))

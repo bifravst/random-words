@@ -1,3 +1,3 @@
-const { randomWords } = require("@nordicsemiconductor/random-words");
+import { randomWords } from '@nordicsemiconductor/random-words'
 
-randomWords().then(console.log);
+console.log(randomWords())
