@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@commitlint/config-conventional": "18.4.4",
-    "@nordicsemiconductor/asset-tracker-cloud-code-style": "13.1.9",
+    "@nordicsemiconductor/asset-tracker-cloud-code-style": "13.1.10",
     "standard": "17.1.0"
   },
   "lint-staged": {
