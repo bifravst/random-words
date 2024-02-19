@@ -7,8 +7,8 @@ on:
     branches:
       - saga
     paths:
-      - 'package.json'
-      - '.github/workflows/update-repo-info.yaml'
+      - "package.json"
+      - ".github/workflows/update-repo-info.yaml"
   workflow_dispatch:
 
 jobs:
@@ -19,10 +19,13 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Sync repository description
-        run: gh repo edit --description "`cat package.json | jq -r '.description'`"
+        run:
+          gh repo edit --description "`cat package.json | jq -r '.description'`"
 
       - name: Sync repository topics
-        run: cat package.json | jq '.keywords[]' | xargs -I'{}' gh repo edit --add-topic {}
+        run:
+          cat package.json | jq '.keywords[]' | xargs -I'{}' gh repo edit
+          --add-topic {}
 
       - name: Sync homepage
         run: gh repo edit --homepage "`cat package.json | jq -r '.homepage'`"

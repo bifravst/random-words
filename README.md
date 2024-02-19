@@ -6,7 +6,8 @@
 [![@commitlint/config-conventional](https://img.shields.io/badge/%40commitlint-config--conventional-brightgreen)](https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/config-conventional)
 [![code style: standard](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://github.com/standard/standard)
 
-Returns random 8-letter words from the [Webster's Unabridged Dictionary](http://www.gutenberg.org/ebooks/29765).
+Returns random 8-letter words from the
+[Webster's Unabridged Dictionary](http://www.gutenberg.org/ebooks/29765).
 
 ## Installation
 
@@ -17,9 +18,9 @@ Returns random 8-letter words from the [Webster's Unabridged Dictionary](http://
     npm i --save --save-exact @nordicsemiconductor/random-words
 
 ```javascript
-import { randomWords } from '@nordicsemiconductor/random-words'
+import { randomWords } from "@nordicsemiconductor/random-words";
 
-console.log(randomWords()) // [ 'scoparin', 'prowling', 'priedieu', 'gantline' ]
+console.log(randomWords()); // [ 'scoparin', 'prowling', 'priedieu', 'gantline' ]
 ```
 
 ## CLI Usage

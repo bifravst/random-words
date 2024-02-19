@@ -10,10 +10,10 @@ on:
     branches:
       - saga
     paths:
-      - '.github/workflows/sync-issue-labels.yaml'
+      - ".github/workflows/sync-issue-labels.yaml"
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: "0 0 * * *"
 
 jobs:
   sync_issue_labels:
