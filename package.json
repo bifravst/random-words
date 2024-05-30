@@ -28,7 +28,7 @@
   "homepage": "https://github.com/NordicSemiconductor/random-words-js#readme",
   "engines": {
     "node": ">=20",
-    "npm": ">=9"
+    "npm": ">=10"
   },
   "devDependencies": {
     "@bifravst/prettier-config": "1.0.0",
