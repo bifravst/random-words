@@ -1,4 +1,4 @@
-# Generate random 8 letter words [![npm version](https://img.shields.io/npm/v/@nordicsemiconductor/random-words.svg)](https://www.npmjs.com/package/@nordicsemiconductor/random-words)
+# Generate random 8 letter words [![npm version](https://img.shields.io/npm/v/rsrp-bar/random-words.svg)](https://www.npmjs.com/package/rsrp-bar/random-words)
 
 [![GitHub Actions](https://github.com/bifravst/random-words/workflows/Test%20and%20Release/badge.svg)](https://github.com/bifravst/random-words/actions)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
@@ -11,20 +11,20 @@ Returns random 8-letter words from the
 
 ## Installation
 
-    npm i --save-dev --save-exact @nordicsemiconductor/random-words
+    npm i --save-dev --save-exact rsrp-bar/random-words
 
 ## Usage
 
-    npm i --save --save-exact @nordicsemiconductor/random-words
+    npm i --save --save-exact rsrp-bar/random-words
 
 ```javascript
-import { randomWords } from "@nordicsemiconductor/random-words";
+import { randomWords } from "rsrp-bar/random-words";
 
 console.log(randomWords()); // [ 'scoparin', 'prowling', 'priedieu', 'gantline' ]
 ```
 
 ## CLI Usage
 
-    npx @nordicsemiconductor/random-words
+    npx rsrp-bar/random-words
     # npx: installed 4 in 1.216s
     # catopron allodium registry misalter
