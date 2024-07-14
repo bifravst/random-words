@@ -33,7 +33,9 @@
   "devDependencies": {
     "@bifravst/prettier-config": "1.0.4",
     "@commitlint/config-conventional": "19.2.2",
+    "cat": "*",
     "husky": "9.0.11",
+    "package.json": "*",
     "standard": "17.1.0"
   },
   "lint-staged": {
@@ -75,5 +77,9 @@
     "words.js",
     "test.js"
   ],
-  "prettier": "@bifravst/prettier-config"
+  "prettier": "@bifravst/prettier-config",
+  "peerDependencies": {
+    "cat": "^0.2.0",
+    "package.json": "^2.0.1"
+  }
 }
