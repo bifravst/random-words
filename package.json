@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/bifravst/random-words#readme",
   "engines": {
-    "node": ">=20",
+    "node": ">=22",
     "npm": ">=10"
   },
   "devDependencies": {
