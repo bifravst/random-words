@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@bifravst/prettier-config": "1.1.4",
-    "@commitlint/config-conventional": "19.6.0",
+    "@commitlint/config-conventional": "19.7.1",
     "husky": "9.1.7",
     "standard": "17.1.2"
   },
