@@ -8,7 +8,7 @@
   "type": "module",
   "scripts": {
     "test": "node --test",
-    "prepare": "husky"
+    "prepare": "husky && case \"$npm_command\" in install|ci) check-node-version --package ;; esac"
   },
   "runkitExampleFilename": "example.js",
   "repository": {
@@ -28,11 +28,12 @@
   "homepage": "https://github.com/bifravst/random-words#readme",
   "engines": {
     "node": ">=22",
-    "npm": ">=10"
+    "npm": ">=12.0.2 <13"
   },
   "devDependencies": {
     "@bifravst/prettier-config": "1.1.17",
     "@commitlint/config-conventional": "19.8.1",
+    "check-node-version": "4.2.1",
     "husky": "9.1.7",
     "standard": "17.1.2"
   },
