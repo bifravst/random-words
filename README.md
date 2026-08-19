@@ -31,7 +31,7 @@ console.log(randomWords()); // [ 'scoparin', 'prowling', 'priedieu', 'gantline' 
 
 ## Node & NPM
 
-This project requires Node.js `>=22` and npm `>=12.0.2 <13` (enforced via
+This project requires Node.js `>=24.19.0` and npm `>=12.0.2 <13` (enforced via
 `check-node-version` on `npm install` and `npm ci`).
 
 The check is skipped during `npm publish` and `npm pack`, because

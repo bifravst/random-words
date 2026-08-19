@@ -27,12 +27,12 @@
   },
   "homepage": "https://github.com/bifravst/random-words#readme",
   "engines": {
-    "node": ">=22",
+    "node": ">=24.19.0",
     "npm": ">=12.0.2 <13"
   },
   "devDependencies": {
-    "@bifravst/prettier-config": "1.1.17",
-    "@commitlint/config-conventional": "19.8.1",
+    "@bifravst/prettier-config": "2.0.0",
+    "@commitlint/config-conventional": "21.2.2",
     "check-node-version": "4.2.1",
     "husky": "9.1.7",
     "standard": "17.1.2"
